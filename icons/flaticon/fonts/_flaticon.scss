@@ -1,0 +1,102 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 19/11/2019 03:38
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-film:before { content: "\f100"; }
+.flaticon-old-typical-phone:before { content: "\f101"; }
+.flaticon-whatsapp-logo-variant:before { content: "\f102"; }
+.flaticon-email:before { content: "\f103"; }
+.flaticon-add-friend:before { content: "\f104"; }
+.flaticon-padlock-unlock:before { content: "\f105"; }
+.flaticon-back:before { content: "\f106"; }
+.flaticon-right-arrow:before { content: "\f107"; }
+.flaticon-next:before { content: "\f108"; }
+.flaticon-left-arrow:before { content: "\f109"; }
+.flaticon-plane:before { content: "\f10a"; }
+.flaticon-airplane:before { content: "\f10b"; }
+.flaticon-hotel:before { content: "\f10c"; }
+.flaticon-beach:before { content: "\f10d"; }
+.flaticon-boat:before { content: "\f10e"; }
+.flaticon-passport:before { content: "\f10f"; }
+.flaticon-passport-1:before { content: "\f110"; }
+.flaticon-shield:before { content: "\f111"; }
+.flaticon-tickets:before { content: "\f112"; }
+.flaticon-ticket:before { content: "\f113"; }
+.flaticon-world:before { content: "\f114"; }
+.flaticon-worldwide:before { content: "\f115"; }
+.flaticon-like:before { content: "\f116"; }
+.flaticon-lock:before { content: "\f117"; }
+.flaticon-padlock:before { content: "\f118"; }
+.flaticon-discount:before { content: "\f119"; }
+.flaticon-transfer:before { content: "\f11a"; }
+.flaticon-transfer-arrows:before { content: "\f11b"; }
+.flaticon-send:before { content: "\f11c"; }
+.flaticon-next-1:before { content: "\f11d"; }
+.flaticon-long-arrow-pointing-to-the-right:before { content: "\f11e"; }
+    
+    $font-Flaticon-film: "\f100";
+    $font-Flaticon-old-typical-phone: "\f101";
+    $font-Flaticon-whatsapp-logo-variant: "\f102";
+    $font-Flaticon-email: "\f103";
+    $font-Flaticon-add-friend: "\f104";
+    $font-Flaticon-padlock-unlock: "\f105";
+    $font-Flaticon-back: "\f106";
+    $font-Flaticon-right-arrow: "\f107";
+    $font-Flaticon-next: "\f108";
+    $font-Flaticon-left-arrow: "\f109";
+    $font-Flaticon-plane: "\f10a";
+    $font-Flaticon-airplane: "\f10b";
+    $font-Flaticon-hotel: "\f10c";
+    $font-Flaticon-beach: "\f10d";
+    $font-Flaticon-boat: "\f10e";
+    $font-Flaticon-passport: "\f10f";
+    $font-Flaticon-passport-1: "\f110";
+    $font-Flaticon-shield: "\f111";
+    $font-Flaticon-tickets: "\f112";
+    $font-Flaticon-ticket: "\f113";
+    $font-Flaticon-world: "\f114";
+    $font-Flaticon-worldwide: "\f115";
+    $font-Flaticon-like: "\f116";
+    $font-Flaticon-lock: "\f117";
+    $font-Flaticon-padlock: "\f118";
+    $font-Flaticon-discount: "\f119";
+    $font-Flaticon-transfer: "\f11a";
+    $font-Flaticon-transfer-arrows: "\f11b";
+    $font-Flaticon-send: "\f11c";
+    $font-Flaticon-next-1: "\f11d";
+    $font-Flaticon-long-arrow-pointing-to-the-right: "\f11e";
