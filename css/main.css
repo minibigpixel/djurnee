@@ -623,7 +623,7 @@ m-0 {
     text-align: center;
     border-bottom: 1px solid #f05a28;
     line-height: 0.1em;
-    margin: 10px 0 20px; }
+    margin: 40px 0; }
 
 .card-default {
   background: #fff;
@@ -1123,6 +1123,7 @@ section {
     transition: all 0.3s ease-out; }
 
 .transportation-grid-item-01 {
+  margin-bottom: 0;
   line-height: 1; }
 
 .transportation-grid-item-01 a {
@@ -1369,7 +1370,8 @@ section.testimonials-style {
 
 .explore-jkt.exp-bg {
   padding: 10px 0px 10px 0px;
-  background-size: 100% !important;
+  background-size: cover;
+  background-image: url('../img/pattern/jtk-bg.png');
   position: relative; }
   .explore-jkt.exp-bg:before {
     content: '';
