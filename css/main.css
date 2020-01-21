@@ -389,12 +389,14 @@ m-0 {
   max-width: 80.733333%; }
 
 .carousel_home {
-  top: -155px;
   position: relative;
+  padding-top: 0;
+  padding-bottom: 0;
   width: 100%; }
   .carousel_home .carousel-item img {
     width: 100%;
     margin: auto;
+    object-fit: cover;
     opacity: 0.78; }
   .carousel_home .carousel .carousel-control > span {
     text-transform: uppercase;
@@ -1123,7 +1125,6 @@ section {
     transition: all 0.3s ease-out; }
 
 .transportation-grid-item-01 {
-  margin-bottom: 0;
   line-height: 1; }
 
 .transportation-grid-item-01 a {
@@ -1713,9 +1714,6 @@ section.header-style {
     z-index: -1;
     left: 0;
     position: absolute; }
-
-section.trip-issue {
-  margin-top: -165px; }
 
 section.transportation-guide div.btn-exp {
   position: absolute;
