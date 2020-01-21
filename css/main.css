@@ -1639,7 +1639,7 @@ section.header-style {
   -o-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s; }
 .carousel-news .owl-item.active:hover .item h4 {
-  padding: 10px;
+  padding: 10px 30px;
   font-size: 22px;
   font-weight: 600;
   color: #3f3f3f;
@@ -1650,8 +1650,8 @@ section.header-style {
   overflow: hidden;
   text-overflow: ellipsis; }
 .carousel-news .owl-item.active:hover .item h6 {
-  padding: 10px;
-  font-size: 15px;
+  padding: 10px 30px;
+  font-size: 18px;
   margin-top: 20px;
   font-weight: 400;
   color: #3f3f3f;
