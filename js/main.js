@@ -70,15 +70,15 @@ $(document).ready(function() {
 //     }
 // }
 
-$(window).scroll(function() {
-    var scroll = $(window).scrollTop();
+// $(window).scroll(function() {
+//     var scroll = $(window).scrollTop();
 
-    if (scroll >= 500) {
-        $("#second-head").addClass("sticky");
-    } else {
-        $("#second-head").removeClass("sticky");
-    }
-});
+//     if (scroll >= 500) {
+//         $("#second-head").addClass("sticky");
+//     } else {
+//         $("#second-head").removeClass("sticky");
+//     }
+// });
 
 if (window.matchMedia("(max-width: 700px)").matches) {
     $('.carousel_home').find('.carousel-control-prev').find('span.pre').text('')
